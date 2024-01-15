@@ -1,0 +1,133 @@
+body{
+    font-family: 'Salsa', cursive;
+
+    background-image:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.75)), url(imge/pexels-pixabay-158163.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#site_nav {
+    background-color: #1e202b5e !important;
+}
+a span {
+    color: #d7e9f0;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+a p {
+    color: var(--bs-gray-600);
+    font-size: 10px;
+    margin-left: 20px;
+    margin-top: 0 !important;
+    font-style: italic;
+    letter-spacing: 1px;
+    font-weight: bold !important;
+}
+#site_nav ul li.nav-item {
+    margin-right: 50px;
+    margin-bottom: 10px;
+}
+#site_nav ul li a {
+    color: white;
+    font-size: 20px;
+}
+
+#weather_cards .container {
+ display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+.search-btn {
+    color: rgb(169, 223, 223);
+    background-color: rgb(70, 153, 192);
+     display: flex;  
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    color: white;
+    background-color: #1b2035a6;
+    box-shadow: 10px 5px 5px rgba(96, 174, 194, 0.651);
+    padding: 10px 50px;
+    border-radius: 30px;
+    width: 100%;
+    height: 100%;
+}
+.city_name {
+    color: #fff;
+    font-size: 30px;
+    padding-left: 10px;
+    text-transform: capitalize;
+    font-weight: bold;
+    padding-block: 8px;
+    width: fit-content;
+    padding-right: 8px;
+    border-radius: 8px;
+}
+.degree {
+    font-size: 30px;
+    font-weight: bolder;
+   color:#dcf0f5;
+    padding: 8px 20px;
+    border-radius: 8px;
+}
+.text-info {
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-info-rgb),var(--bs-text-opacity))!important;
+}
+.status_condition {
+    text-align: center;
+    color: #b7ddec;
+  
+}
+.weather_sammary {
+   
+     background-color: rgba(131, 197, 241, 0.288);
+    border-radius: 20px;
+    
+}
+.weather_sammary span{
+    padding: 3px;
+}
+#allData{
+    width: 100% !important;
+    height:100% !important ;
+
+
+}
+.day-date{
+margin-left: 8px;
+}
+.day-name {
+    padding: 0;
+}
+.footer-section{
+   margin-top: 40px;
+    background-color: #1b2035a6;
+padding: 50px 10px;
+
+}
+.footer-section .container h3{
+    text-align: center;
+    padding: 10px;
+    border-bottom: 2px solid #ddd6;
+    margin-bottom: 10px;
+}
+.social-links{
+    padding-left:80px;
+}
+.social-links a {
+    color: #42c0f1;
+    text-align: center;
+    line-height: 2;
+    font-size: 20px;
+}
+.social-links a i{
+  padding: 10px;
+}
